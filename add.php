@@ -12,8 +12,8 @@ $check = mysqli_real_escape_string($conn,$_POST["check"]);
 
 $date_now = date("Y-m-d H:i:s");
 
-$insert = "INSERT INTO tb_survey(pname, fname, lname, position, dep, dep_name, checked, created_at) 
-            VALUES('$pname','$fname','$lname','$position','$depart','$depart_name','$check','$date_now')";
+$insert = "INSERT INTO tb_survey(pname, fname, lname, position, dep, dep_name, checked) 
+            VALUES('$pname','$fname','$lname','$position','$depart','$depart_name','$check')";
 
 if(mysqli_query($conn,$insert)){
 
