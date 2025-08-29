@@ -20,25 +20,25 @@
 
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Athiti:wght@200;300;400;500;600;700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
     * {
-        font-family: "Itim", cursive;
+        font-family: "Athiti", sans-serif;
     }
 </style>
 
 <body>
 
 
-    <div class="flex justify-center items-center bg-sky-200">
+    <div class="flex justify-center items-center bg-green-200">
 
 
         <div class="flex lg:py-15 w-full max-w-5xl">
-            <div class="card bg-sky-50">
-                <figure class="h-96">
+            <div class="card bg-green-50 rounded-none lg:rounded-lg">
+                <figure class="h-full">
                     <img
                         class="w-full h-full object-cover"
-                        src="assets/meeting.jpg"
+                        src="assets/meeting1.jpg"
                         alt="Shoes" />
                 </figure>
                 <div class="card-body">
@@ -126,8 +126,8 @@
 
 
 
-                        <div class="card-actions justify-center mt-5">
-                            <button class="btn btn-primary w-full lg:w-32" type="submit">บันทึกข้อมูล</button>
+                        <div class="card-actions justify-center mt-10">
+                            <button class="btn btn-success w-full lg:w-32" type="submit">บันทึกข้อมูล</button>
                         </div>
 
                     </form>
