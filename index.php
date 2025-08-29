@@ -48,7 +48,7 @@
                     </span>
 
 
-                    <div class="divider">ข้อมูลตอบรับ</div>
+                    <div class="divider">แบบตอบรับ</div>
 
                     <form id="formData">
 
