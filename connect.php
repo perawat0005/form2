@@ -6,7 +6,7 @@ date_default_timezone_set("Asia/Bangkok");
 
 $host = 'mysql.railway.internal';
 $db_user = 'root';
-$db_pass = 'HrBbxfUBCahHRRgfMKVsrTUDWSExFrCz';
+$db_pass = 'ylQPdoZREepEcahCXUuGxHQVYjbmPTHB';
 $db_name = 'railway';
 
 $conn = mysqli_connect($host,$db_user,$db_pass,$db_name);
