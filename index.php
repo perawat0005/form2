@@ -33,7 +33,7 @@
     <div class="flex justify-center items-center bg-emerald-300">
 
 
-        <div class="flex lg:py-15 w-full max-w-5xl">
+        <div class="lg:py-15 w-full max-w-5xl">
             <div class="card bg-green-50 rounded-none lg:rounded-lg">
                 <figure class="h-full">
                     <img
