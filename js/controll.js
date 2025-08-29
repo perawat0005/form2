@@ -31,8 +31,6 @@
                 Swal.fire('กรุณาระบุชื่อ-นามสกุล', '', 'warning');
             }else if(position == ""){
                 Swal.fire('กรุณาระบุตำแหน่ง', '', 'warning');
-            }else if(depart == ""){
-                Swal.fire('กรุณาระบุประเภทหน่วยงาน', '', 'warning');
             }else if(depart_name == ""){
                 Swal.fire('กรุณาระบุชื่อหน่วยงาน', '', 'warning');
             }
