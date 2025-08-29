@@ -30,7 +30,7 @@
 <body>
 
 
-    <div class="flex justify-center items-center bg-green-200">
+    <div class="flex justify-center items-center bg-emerald-300">
 
 
         <div class="flex lg:py-15 w-full max-w-5xl">
@@ -38,7 +38,7 @@
                 <figure class="h-full">
                     <img
                         class="w-full h-full object-cover"
-                        src="assets/meeting1.jpg"
+                        src="assets/meeting2.jpg"
                         alt="Shoes" />
                 </figure>
                 <div class="card-body">
@@ -83,16 +83,16 @@
                             </fieldset>
 
 
-                            <fieldset class="fieldset w-full">
+                            <!-- <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> หน่วยงาน</legend>
                                 <select class="select validator text-xl w-full" id="depart" required>
                                     <option disabled selected value="">-- เลือกหน่วยงาน --</option>
                                     <option value="1">โรงพยาบาล</option>
                                     <option value="2">รพ.สต.</option>
                                     <option value="3">สออ.</option>
-                                    <option value="4">สอจ.</option>
+                                    <option value="4">สสจ.</option>
                                 </select>
-                            </fieldset>
+                            </fieldset> -->
 
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> ชื่อหน่วยงาน</legend>

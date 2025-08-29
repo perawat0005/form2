@@ -2,14 +2,6 @@
     $(document).ready(function() {
 
 
-        $("#date_b").flatpickr({
-            dateFormat: "d/m/Y",
-            locale: "th",
-            disableMobile: true
-        })
-
-
-
 
         let checkValueArr = ""
         $(document).on('change', 'input[name="radio-1"]', function() {
@@ -31,7 +23,7 @@
             let fname = $('#fname').val();
             let lname = $('#lname').val();
             let position = $('#position').val();
-            let depart = $('#depart').val();
+            /* let depart = $('#depart').val(); */
             let depart_name = $('#depart_name').val();
             let check = checkValueArr;
 
@@ -64,7 +56,7 @@
                                 "fname": fname,
                                 "lname": lname,
                                 "position": position,
-                                "depart": depart,
+                                /* "depart": depart, */
                                 "depart_name": depart_name,
                                 "check": check
                             },
