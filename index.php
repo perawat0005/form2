@@ -33,7 +33,7 @@
     <div class="flex justify-center items-center bg-sky-200">
 
 
-        <div class="flex py-15 w-full max-w-5xl">
+        <div class="flex lg:py-15 w-full max-w-5xl">
             <div class="card bg-sky-50">
                 <figure class="h-96">
                     <img
@@ -52,10 +52,10 @@
 
                     <form id="formData">
 
-                        <div class="flex flex-nowrap gap-4">
+                        <div class="md:flex gap-4">
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> คำนำหน้า</legend>
-                                <select class="select validator text-xl" id="pname" required>
+                                <select class="select validator text-xl w-full" id="pname" required>
                                     <option disabled selected value="">-- เลือกคำนำหน้า --</option>
                                     <option value="นาย">นาย</option>
                                     <option value="นาง">นาง</option>
@@ -66,26 +66,26 @@
 
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> ชื่อ</legend>
-                                <input type="text" class="input validator text-xl" placeholder="ชื่อ" id="fname" required />
+                                <input type="text" class="input validator text-xl w-full" placeholder="ชื่อ" id="fname" required />
                             </fieldset>
 
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> นามสกุล</legend>
-                                <input type="text" class="input validator text-xl" placeholder="นามสกุล" id="lname" required />
+                                <input type="text" class="input validator text-xl w-full" placeholder="นามสกุล" id="lname" required />
                             </fieldset>
 
                         </div>
 
-                        <div class="flex mt-4 gap-4">
+                        <div class="md:flex mt-4 gap-4">
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> ตำแหน่ง</legend>
-                                <input type="text" class="input validator text-xl" placeholder="ตำแหน่ง" id="position" required />
+                                <input type="text" class="input validator text-xl w-full" placeholder="ตำแหน่ง" id="position" required />
                             </fieldset>
 
 
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> หน่วยงาน</legend>
-                                <select class="select validator text-xl" id="depart" required>
+                                <select class="select validator text-xl w-full" id="depart" required>
                                     <option disabled selected value="">-- เลือกหน่วยงาน --</option>
                                     <option value="1">โรงพยาบาล</option>
                                     <option value="2">รพ.สต.</option>
@@ -96,13 +96,13 @@
 
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> ชื่อหน่วยงาน</legend>
-                                <input type="text" class="input validator text-xl" placeholder="ชื่อหน่วยงาน" id="depart_name" required />
+                                <input type="text" class="input validator text-xl w-full" placeholder="ชื่อหน่วยงาน" id="depart_name" required />
                             </fieldset>
                         </div>
 
 
 
-                        <div class="flex mt-4">
+                        <div class="md:flex mt-4">
                             <fieldset class="fieldset">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> ความประสงค์เข้าร่วม</legend>
 
@@ -126,8 +126,8 @@
 
 
 
-                        <div class="card-actions justify-center mt-10">
-                            <button class="btn btn-primary" type="submit">บันทึกข้อมูล</button>
+                        <div class="card-actions justify-center mt-5">
+                            <button class="btn btn-primary w-full lg:w-32" type="submit">บันทึกข้อมูล</button>
                         </div>
 
                     </form>
