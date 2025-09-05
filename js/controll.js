@@ -27,6 +27,8 @@
             /* let depart_name = $('#depart_name').val(); */
             let check = checkValueArr;
 
+            console.log(depart)
+
             if(pname == "" || fname == "" || lname == ""){
                 Swal.fire('กรุณาระบุชื่อ-นามสกุล', '', 'warning');
             }else if(position == ""){
