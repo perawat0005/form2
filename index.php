@@ -43,8 +43,8 @@
                 </figure>
                 <div class="card-body">
                     <span class="font-bold text-xl">
-                        แบบตอบรับโครงการรับเสด็จสมเด็จพระเจ้าน้องนางเธอ เจ้าฟ้าจุฬาภรณวลัยลักษณ์ อัครราชกุมารี กรมพระศรีสวางควัฒน วรขัตติยราชนารี โรงพยาบาลห้วยราช อำเภอห้วยราช จังหวัดบุรีรัมย์ ประจำปีงบประมาณ 2568
-                        วันที่ 29-31 สิงหาคม พ.ศ.2568 ณ โรงเรียนห้วยราชพิทยาคม อำเภอห้วยราช จังหวัดบุรีรัมย์
+                        โครงการประชุมเพื่อทบทวนแผนยุทธศาสตร์ แผนการเงินการคลัง และจัดทำแผนปฏิบัติการ ประจำปีงบประมาณ 2568 
+                        ในวันที่ 10 กันยายน 2568 ณ ห้องประชุม Okamod โรงพยาบาลห้วยราช อ.ห้วยราช จ.บุรีรัมย์
                     </span>
 
 
@@ -83,21 +83,34 @@
                             </fieldset>
 
 
-                            <!-- <fieldset class="fieldset w-full">
+                            <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> หน่วยงาน</legend>
                                 <select class="select validator text-xl w-full" id="depart" required>
                                     <option disabled selected value="">-- เลือกหน่วยงาน --</option>
-                                    <option value="1">โรงพยาบาล</option>
-                                    <option value="2">รพ.สต.</option>
-                                    <option value="3">สออ.</option>
-                                    <option value="4">สสจ.</option>
+                                    <option value="1">องค์กรแพทย์</option>
+                                    <option value="2">บริหาร</option>
+                                    <option value="3">ยุทธศาสตร์และงานประกัน</option>
+                                    <option value="4">ห้องหัวหน้ากลุ่มการ</option>
+                                    <option value="5">จ่ายกลาง</option>
+                                    <option value="6">ผู้ป่วยใน</option>
+                                    <option value="7">อุบัติเหตุฉุกเฉิน</option>
+                                    <option value="8">ห้องคลอดและผ่าตัด</option>
+                                    <option value="9">ผู้ป่วยนอก</option>
+                                    <option value="10">ส่งเสริม</option>
+                                    <option value="11">เภสัชกรรม</option>
+                                    <option value="12">กายภาพ</option>
+                                    <option value="13">แพทย์แผนไทย</option>
+                                    <option value="14">ทันตกรรม</option>
+                                    <option value="15">ชันสูตร</option>
+                                    <option value="16">เอ็กซเรย์</option>
+                                    <option value="17">สุขภาพจิตและยาเสพติด</option>
                                 </select>
-                            </fieldset> -->
+                            </fieldset>
 
-                            <fieldset class="fieldset w-full">
+                            <!-- <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> ชื่อหน่วยงาน</legend>
                                 <input type="text" class="input validator text-xl w-full" placeholder="ชื่อหน่วยงาน" id="depart_name" required />
-                            </fieldset>
+                            </fieldset> -->
                         </div>
 
 

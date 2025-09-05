@@ -23,16 +23,16 @@
             let fname = $('#fname').val();
             let lname = $('#lname').val();
             let position = $('#position').val();
-            /* let depart = $('#depart').val(); */
-            let depart_name = $('#depart_name').val();
+            let depart = $('#depart').val();
+            /* let depart_name = $('#depart_name').val(); */
             let check = checkValueArr;
 
             if(pname == "" || fname == "" || lname == ""){
                 Swal.fire('กรุณาระบุชื่อ-นามสกุล', '', 'warning');
             }else if(position == ""){
                 Swal.fire('กรุณาระบุตำแหน่ง', '', 'warning');
-            }else if(depart_name == ""){
-                Swal.fire('กรุณาระบุชื่อหน่วยงาน', '', 'warning');
+            }else if(depart == ""){
+                Swal.fire('กรุณาเลือกหน่วยงาน', '', 'warning');
             }
             else if (check == "") {
                 Swal.fire('กรุณาระบุความประสงค์', '', 'warning');
@@ -54,8 +54,8 @@
                                 "fname": fname,
                                 "lname": lname,
                                 "position": position,
-                                /* "depart": depart, */
-                                "depart_name": depart_name,
+                                "depart": depart,
+                                /* "depart_name": depart_name, */
                                 "check": check
                             },
                             success: function(result) {
