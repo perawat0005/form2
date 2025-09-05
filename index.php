@@ -30,11 +30,11 @@
 <body>
 
 
-    <div class="flex justify-center items-center bg-emerald-300">
+    <div class="flex justify-center items-center bg-sky-300/50 shadow-lg">
 
 
         <div class="lg:py-15 w-full max-w-5xl">
-            <div class="card bg-green-50 rounded-none lg:rounded-lg">
+            <div class="card bg-sky-50 rounded-none lg:rounded-lg">
                 <figure class="h-full">
                     <img
                         class="w-full h-full object-cover"
@@ -122,14 +122,14 @@
                                 <div class="flex gap-6">
 
                                     <div class="flex items-center gap-2">
-                                        <input type="radio" name="radio-1" class="radio radio-success radio-xl validator" value="Y" />
+                                        <input type="radio" name="radio-1" class="radio radio-info radio-xl validator" value="Y" />
                                         <legend class="fieldset-legend text-base text-xl">เข้าร่วม</legend>
                                     </div>
 
 
 
                                     <div class="flex items-center gap-2">
-                                        <input type="radio" name="radio-1" class="radio radio-success radio-xl validator" value="N" />
+                                        <input type="radio" name="radio-1" class="radio radio-info radio-xl validator" value="N" />
                                         <legend class="fieldset-legend text-base text-xl">ไม่เข้าร่วม</legend>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
 
 
                         <div class="card-actions justify-center mt-10">
-                            <button class="btn btn-success w-full lg:w-32" type="submit">บันทึกข้อมูล</button>
+                            <button class="btn btn-info w-full lg:w-32" type="submit">บันทึกข้อมูล</button>
                         </div>
 
                     </form>
