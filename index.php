@@ -38,7 +38,7 @@
                 <figure class="h-full">
                     <img
                         class="w-full h-full object-cover"
-                        src="assets/meeting2.jpg"
+                        src="assets/plan.jpg"
                         alt="Shoes" />
                 </figure>
                 <div class="card-body">
