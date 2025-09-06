@@ -103,7 +103,7 @@
                                     <option value="14">ทันตกรรม</option>
                                     <option value="15">ชันสูตร</option>
                                     <option value="16">เอ็กซเรย์</option>
-                                    <option value="17">สุขภาพจิตและยาเสพติด</option>
+                                    <option value="17">จิตเวชและยาเสพติด</option>
                                 </select>
                             </fieldset>
 
