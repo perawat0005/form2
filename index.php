@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
@@ -25,6 +26,24 @@
     * {
         font-family: "Athiti", sans-serif;
     }
+
+    .select2-container .select2-selection--single {
+      height: 2.5rem;
+      border: 1px solid #d1d5db; /* border-gray-300 */
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+      color: #374151; /* text-gray-700 */
+      line-height: 2rem;
+      font-size: 18px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0.75rem;
+    }
 </style>
 
 <body>
@@ -37,7 +56,7 @@
             <div class="card bg-sky-50 rounded-none lg:rounded-lg">
                 <figure class="h-full">
                     <img
-                        class="w-full h-full object-cover"
+                        class="w-full h-full"
                         src="assets/plan.jpg"
                         alt="Shoes" />
                 </figure>
@@ -85,7 +104,7 @@
 
                             <fieldset class="fieldset w-full">
                                 <legend class="fieldset-legend text-base text-xl"><span class="text-red-600">*</span> หน่วยงาน</legend>
-                                <select class="select validator text-xl w-full" id="depart" required>
+                                <select class="select select-bordered validator text-xl w-full" id="depart" required>
                                     <option disabled selected value="">-- เลือกหน่วยงาน --</option>
                                     <option value="1">องค์กรแพทย์</option>
                                     <option value="2">บริหาร</option>
@@ -104,6 +123,7 @@
                                     <option value="15">ชันสูตร</option>
                                     <option value="16">เอ็กซเรย์</option>
                                     <option value="17">จิตเวชและยาเสพติด</option>
+                                    <option value="18">โภชนาการ</option>
                                 </select>
                             </fieldset>
 
@@ -159,13 +179,14 @@
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://npmcdn.com/flatpickr/dist/l10n/th.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript" src="js/controll.js"></script>
 
 <script>
     $(document).ready(function() {
 
-
+        $('#depart').select2();
 
         let checkValueArr = ""
         $(document).on('change', 'input[name="radio-1"]', function() {
